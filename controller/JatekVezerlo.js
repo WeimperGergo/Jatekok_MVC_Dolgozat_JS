@@ -2,7 +2,7 @@ import JatekModell from "../model/JatekModell.js";
 import JatekNezet from "../view/JatekNezet.js";
 
 
-export default class Jatek{
+export default class JatekVezerlo{
     #jLista = [];
 
     constructor(){

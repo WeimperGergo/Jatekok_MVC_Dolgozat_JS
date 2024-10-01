@@ -1,4 +1,4 @@
-export default class Jatek{
+export default class JatekNezet{
     #megj_Lista = [];
 
     constructor(){

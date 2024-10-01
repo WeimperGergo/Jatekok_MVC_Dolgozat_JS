@@ -1,5 +1,5 @@
 import { jatekLista } from "../adat.js";
-export default class Jatek{
+export default class JatekModell{
     #lista = [];
     #kosarLista = [];
 
