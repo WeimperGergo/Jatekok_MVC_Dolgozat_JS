@@ -9,8 +9,10 @@ export default class Jatek{
         this.jModell = new JatekModell();
         this.#jLista = this.jModell.getLista();
         //console.log(this.getJLista())
-        this.jNezet = new JatekNezet(this.getJLista());
-        this.jNezet.megj_Lista_feltolt();
+        this.jNezet = new JatekNezet();
+        this.jNezet.megj_Lista_feltolt(this.getJLista());
+        this.jNezet.lista_megjelenit(this.jNezet.getEbbenMegj(), this.jNezet.getMegjLista());
+        console.log(this.jNezet.getMegjLista());
     }
 
     getJLista(){
